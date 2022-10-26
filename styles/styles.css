@@ -1,0 +1,28 @@
+input:focus,
+button:focus,
+textarea:focus,
+img:focus,
+div:focus,
+a:focus {
+  outline: none;
+}
+
+.cls-1 {
+  fill: #003893;
+}
+.cls-2 {
+  fill: #dc143c;
+}
+
+.common-style {
+  @apply p-6 md:p-10 lg:px-16;
+}
+.common-style-2 {
+  @apply max-w-7xl mx-auto;
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
