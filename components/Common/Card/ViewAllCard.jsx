@@ -6,7 +6,7 @@ const ViewAllCard = ({ link }) => {
       <div className="absolute w-full h-full opacity-[0.09]">
         <img
           src="/images/home/motherboard-repair.webp"
-          alt=""
+          alt="Laptop Repair"
           className="w-full h-full object-cover"
         />
       </div>

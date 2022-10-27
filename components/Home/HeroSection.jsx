@@ -44,7 +44,7 @@ const HeroSection = () => {
         <div className="lg:flex-1">
           <img
             src="/images/home/motherboard-repair.webp"
-            alt="Mister Computer Solutions Laptop motherboard repair"
+            alt="Laptop Repair"
             className="w-full h-full object-cover"
           />
         </div>

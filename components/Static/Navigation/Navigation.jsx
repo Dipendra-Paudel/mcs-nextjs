@@ -6,7 +6,7 @@ import HamburgerMenu from "../../Common/HamburgerMenu";
 import ButtonAnimation from "../../Common/Button/ButtonAnimation";
 import { navigationOptions } from "../options";
 
-const Navigation = () => {
+const Navigation = ({ active }) => {
   const [toggled, setToggled] = useState(false);
 
   const changeToggled = (bool) => {
@@ -41,7 +41,11 @@ const Navigation = () => {
                   const { label, url } = option;
                   return (
                     <Link href={url} key={index} passHref={true}>
-                      <a className="hover:text-primary transition-all duration-300">
+                      <a
+                        className={`hover:text-primary transition-all duration-300 ${
+                          active === label ? "text-primary" : ""
+                        }`}
+                      >
                         {label}
                       </a>
                     </Link>
@@ -68,7 +72,11 @@ const Navigation = () => {
       </div>
 
       <div className="md:hidden">
-        <Sidebar toggled={toggled} changeToggled={changeToggled} />
+        <Sidebar
+          toggled={toggled}
+          changeToggled={changeToggled}
+          active={active}
+        />
       </div>
     </>
   );

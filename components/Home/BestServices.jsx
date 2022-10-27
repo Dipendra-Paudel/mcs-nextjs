@@ -35,7 +35,7 @@ const BestServices = () => {
             >
               <img
                 src="/icons/slider-arrow.png"
-                alt=""
+                alt="Left Arrow"
                 className="w-full h-full rotate-180"
               />
             </button>
@@ -45,7 +45,7 @@ const BestServices = () => {
             >
               <img
                 src="/icons/slider-arrow.png"
-                alt=""
+                alt="Right Arrow"
                 className="w-full h-full"
               />
             </button>

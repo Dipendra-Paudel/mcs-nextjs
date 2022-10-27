@@ -4,7 +4,7 @@ import { navigationOptions } from "../options";
 import NavLogo from "../../Common/NavLogo";
 import ButtonAnimation from "../../Common/Button/ButtonAnimation";
 
-const Sidebar = ({ toggled, changeToggled }) => {
+const Sidebar = ({ toggled, changeToggled, active }) => {
   return (
     <>
       {/* Background overlay */}
@@ -30,7 +30,11 @@ const Sidebar = ({ toggled, changeToggled }) => {
                 const { label, url } = option;
                 return (
                   <Link key={index} href={url} passHref={true}>
-                    <a className="py-3 px-10 hover:text-primary transition-all duration-300 border-b border-gray-200">
+                    <a
+                      className={`py-3 px-10 hover:text-primary transition-all duration-300 border-b border-gray-200 ${
+                        active === label ? "text-primary" : ""
+                      }`}
+                    >
                       {label}
                     </a>
                   </Link>
@@ -39,13 +43,12 @@ const Sidebar = ({ toggled, changeToggled }) => {
             </div>
           </div>
 
-          <div className="px-6 w-full">
+          <div className="px-6 pb-12 w-full">
             <ButtonAnimation
               link="/services"
               label="Need Service?"
-              size="small"
               color="red"
-              classes="w-full text-center"
+              classes="w-full text-center block"
               handleClick={() => window.scrollTo(0, 0)}
             />
           </div>

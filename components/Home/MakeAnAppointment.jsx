@@ -5,7 +5,7 @@ const MakeAnAppointment = () => {
     <div className="common-style relative">
       <div className="absolute top-0 left-0 h-full w-full">
         <img
-          src="/images/home/make-an-appointment1.jpg"
+          src="/images/home/make-an-appointment.webp"
           alt="Make An Appointment"
           className="w-full h-full object-cover"
         />

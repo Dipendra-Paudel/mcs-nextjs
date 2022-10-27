@@ -1,5 +1,12 @@
+import Navigation from "../../components/Static/Navigation/Navigation";
+
 const AboutUs = () => {
-  return <div>About us</div>;
+  return (
+    <div>
+      <Navigation active="About Us" />
+      <div>About Us</div>
+    </div>
+  );
 };
 
 export default AboutUs;

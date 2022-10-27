@@ -2,9 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  env: {
-    BASEURL: process.env.BASEURL,
-    FRONTEND_TOKEN: process.env.FRONTEND_TOKEN,
+  i18n: {
+    locales: ["en"],
+    defaultLocale: "en",
   },
 };
 

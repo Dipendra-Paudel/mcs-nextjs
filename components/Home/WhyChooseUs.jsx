@@ -9,7 +9,7 @@ const reasons = [
     image: "/icons/why-choose-us/friendly.png",
     title: "Friendly Service",
     description:
-      "Our technical experts will get you honest, reliable and professional help.",
+      "Most of the services are done within hours, and in most cases same day.",
   },
   {
     image: "/icons/why-choose-us/diagnosis.png",
@@ -42,7 +42,7 @@ const WhyChooseUs = () => {
             return (
               <div key={index} className="space-y-1">
                 <div className="inline-block h-20 mx-auto">
-                  <img src={image} alt="" className="h-full" />
+                  <img src={image} alt={title} className="h-full" />
                 </div>
                 <div className="truncate font-medium text-gray-800 uppercase text-lg md:text-base">
                   {title}
