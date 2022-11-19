@@ -1,11 +1,10 @@
-import React from "react";
 import Link from "next/link";
 
 const ButtonAnimation = ({ link, label, color, size, classes = "" }) => {
   return (
     <Link href={link} passHref={true}>
       <a
-        className={`animate-button text-white cursor-pointer bg-primary ${
+        className={`animate-button text-white cursor-pointer ${
           classes !== "" ? classes : "inline-block"
         } ${color === "red" ? "bg-primary" : "bg-secondary"}`}
       >

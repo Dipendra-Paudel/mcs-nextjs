@@ -5,6 +5,7 @@ import BestServices from "../components/Home/BestServices";
 import MakeAnAppointment from "../components/Home/MakeAnAppointment";
 import WhyChooseUs from "../components/Home/WhyChooseUs";
 import Testimonials from "../components/Home/Testimonials";
+import FeelFreeToContact from "../components/Static/FeelFreeToContact/FeelFreeToContact";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
       <MakeAnAppointment />
       <WhyChooseUs />
       <Testimonials />
+      <FeelFreeToContact />
     </div>
   );
 };
