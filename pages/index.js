@@ -1,15 +1,16 @@
+import { Fragment } from "react";
 import HeadTag from "../utils/HeadTag";
 import Navigation from "../components/Static/Navigation/Navigation";
-import HeroSection from "../components/Home/HeroSection";
-import BestServices from "../components/Home/BestServices";
-import MakeAnAppointment from "../components/Home/MakeAnAppointment";
-import WhyChooseUs from "../components/Home/WhyChooseUs";
-import Testimonials from "../components/Home/Testimonials";
-import FeelFreeToContact from "../components/Static/FeelFreeToContact/FeelFreeToContact";
+import HeroSection from "../components/Pages/Home/HeroSection";
+import BestServices from "../components/Pages/Home/BestServices";
+import MakeAnAppointment from "../components/Pages/Home/MakeAnAppointment";
+import WhyChooseUs from "../components/Pages/Home/WhyChooseUs";
+import Testimonials from "../components/Pages/Home/Testimonials";
+import FeelFreeToContact from "../components/Common/FeelFreeToContact/FeelFreeToContact";
 
 const Home = () => {
   return (
-    <div>
+    <Fragment>
       <HeadTag
         title="Mister Computer Solutions"
         keywords="Mister Computer Solutions, Computer Repairing Service, It Support, Computer Repairing Service in Bharatpur Chitwan, Computer Repairing Service in Nepal, Computer Repair, Computer Solutions, Computer Parts, Best Computer Service, Best Computer Repairing Service"
@@ -24,7 +25,7 @@ const Home = () => {
       <WhyChooseUs />
       <Testimonials />
       <FeelFreeToContact />
-    </div>
+    </Fragment>
   );
 };
 

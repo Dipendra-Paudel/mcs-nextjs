@@ -4,10 +4,10 @@ import { Navigation, Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import ServiceCard from "../Common/Card/ServiceCard";
-import { bestServices } from "../../utils/services";
-import swiperSettings from "../../utils/swiperSettings";
-import ViewAllCard from "../Common/Card/ViewAllCard";
+import ServiceCard from "../../Common/Card/ServiceCard";
+import { bestServices } from "../../../utils/services";
+import swiperSettings from "../../../utils/swiperSettings";
+import ViewAllCard from "../../Common/Card/ViewAllCard";
 
 const BestServices = () => {
   const leftArrow = useRef();

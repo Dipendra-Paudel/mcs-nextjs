@@ -1,4 +1,4 @@
-import ButtonAnimation from "../Common/Button/ButtonAnimation";
+import ButtonAnimation from "../../Common/Button/ButtonAnimation";
 
 const MakeAnAppointment = () => {
   return (

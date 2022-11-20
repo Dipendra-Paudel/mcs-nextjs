@@ -1,4 +1,4 @@
-import ButtonAnimation from "../../Common/Button/ButtonAnimation";
+import ButtonAnimation from "../Button/ButtonAnimation";
 
 const FeelFreeToContact = () => {
   return (
@@ -11,8 +11,8 @@ const FeelFreeToContact = () => {
         />
       </div>
       <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-70"></div>
-      <div className="common-style-2 relative z-10">
-        <div className="lg:flex py-4 justify-between items-center space-y-8 text-center md:text-left">
+      <div className="common-style-2 relative z-10 py-10">
+        <div className="lg:flex justify-between items-center space-y-8 text-center md:text-left">
           <div className="space-y-2">
             <div className="text-2xl lg:text-3xl font-semibold text-white">
               Do you have any question? Feel free to contact.

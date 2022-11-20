@@ -45,7 +45,7 @@ const socialSites = [
 const Footer = () => {
   return (
     <div className="text-gray-700 text-center lg:text-left border-t border-gray-300">
-      <div className="common-style">
+      <div className="p-6 py-10 md:px-8 md:pt-12 lg:px-16 lg:pt-16">
         <div className="common-style-2 text-sm">
           <div className="grid md:grid-cols-2 lg:grid-cols-7 gap-10">
             <div className="lg:col-span-3 space-y-3 px-4 sm:px-0">

@@ -1,4 +1,4 @@
-import TestimonialSlider from "../Slider/Testimonial/TestimonialSlider";
+import TestimonialSlider from "../../Slider/Testimonial/TestimonialSlider";
 
 const Testimonials = () => {
   return (
