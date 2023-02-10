@@ -18,12 +18,12 @@ const quickLinks = [
     url: "/it-support",
   },
   {
-    label: "Appointment",
-    url: "/appointment",
-  },
-  {
     label: "About us",
     url: "/about-us",
+  },
+  {
+    label: "Contact",
+    url: "/contact",
   },
 ];
 

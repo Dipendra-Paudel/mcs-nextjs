@@ -1,7 +1,9 @@
 import { Fragment } from "react";
 import FeelFreeToContact from "../../components/Common/FeelFreeToContact/FeelFreeToContact";
+import HeroSection from "../../components/Common/HeroSection";
 import GoogleMap from "../../components/Pages/About/GoogleMap";
-import HeroSection from "../../components/Pages/About/HeroSection";
+import MainPage from "../../components/Pages/About/MainPage";
+import WhyChooseUs from "../../components/Pages/Home/WhyChooseUs";
 import Navigation from "../../components/Static/Navigation/Navigation";
 import HeadTag from "../../utils/HeadTag";
 
@@ -16,7 +18,9 @@ const AboutUs = () => {
       />
 
       <Navigation active="About Us" />
-      <HeroSection />
+      <HeroSection title="Home > About Us" />
+      <MainPage />
+      <WhyChooseUs />
       <GoogleMap />
       <FeelFreeToContact />
     </Fragment>

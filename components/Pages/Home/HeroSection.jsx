@@ -3,7 +3,7 @@ import ButtonAnimation from "../../Common/Button/ButtonAnimation";
 const HeroSection = () => {
   return (
     <div className="common-style">
-      <div className="common-style-2 space-y-12 lg:space-y-0 lg:flex lg:space-x-10 py-5">
+      <div className="common-style-2 space-y-12 lg:space-y-0 lg:flex lg:space-x-10 py-1 md:py-5">
         <div className="space-y-5 lg:flex-1 xl:space-y-8">
           <h1 className="text-3xl lg:text-4xl xl:text-5xl font-extrabold text-gray-800">
             Always there when your computer needs repair
@@ -28,14 +28,10 @@ const HeroSection = () => {
               <b className="text-gray-700">Home Delivery Service</b> all over{" "}
               <b className="text-gray-700">Bharatpur</b>, Chitwan
             </li>
-            <li>
-              <b className="text-gray-700">Home Delivery Service</b> all over{" "}
-              <b className="text-gray-700">Bharatpur</b>, Chitwan
-            </li>
           </ul>
 
           <ButtonAnimation
-            link="/appointment"
+            link="/contact"
             label="Make Appointment"
             size="big"
             classes="block sm:inline-block text-center"

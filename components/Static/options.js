@@ -5,14 +5,14 @@ export const navigationOptions = [
   },
   {
     label: "IT Support",
-    url: "it-support",
-  },
-  {
-    label: "Appointment",
-    url: "/appointment",
+    url: "/it-support",
   },
   {
     label: "About Us",
     url: "/about-us",
+  },
+  {
+    label: "Contact",
+    url: "/contact",
   },
 ];

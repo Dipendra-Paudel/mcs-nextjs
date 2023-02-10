@@ -4,7 +4,7 @@ const ServiceCard = ({ id, image, serviceName, shortSummary }) => {
   const url = `/services/${id}`;
 
   return (
-    <div className="block border">
+    <div className="block border-gray-300 border">
       <div className="h-60 lg:h-72">
         <img
           src={image}

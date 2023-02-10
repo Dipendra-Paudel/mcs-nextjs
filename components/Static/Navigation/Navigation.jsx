@@ -10,13 +10,7 @@ const Navigation = ({ active }) => {
   const [toggled, setToggled] = useState(false);
 
   const changeToggled = (bool) => {
-    if (bool === true) {
-      document.body.style.overflow = "hidden";
-      setToggled(bool);
-    } else {
-      document.body.style.overflow = "auto";
-      setToggled(bool);
-    }
+    setToggled(bool);
   };
 
   return (

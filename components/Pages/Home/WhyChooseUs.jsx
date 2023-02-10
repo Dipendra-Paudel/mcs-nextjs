@@ -7,9 +7,9 @@ const reasons = [
   },
   {
     image: "/icons/why-choose-us/friendly.png",
-    title: "Friendly Service",
+    title: "Quality assurance",
     description:
-      "Most of the services are done within hours, and in most cases same day.",
+      "We ensure all repairs and services are carried out to the highest standards.",
   },
   {
     image: "/icons/why-choose-us/diagnosis.png",

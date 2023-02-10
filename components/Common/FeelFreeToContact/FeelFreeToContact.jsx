@@ -23,11 +23,7 @@ const FeelFreeToContact = () => {
             </div>
           </div>
           <div className="flex-1 lg:text-center flex items-center justify-center sm:block">
-            <ButtonAnimation
-              link="/appointment"
-              label="Contact Now"
-              color="red"
-            />
+            <ButtonAnimation link="/contact" label="Contact Now" color="red" />
           </div>
         </div>
       </div>

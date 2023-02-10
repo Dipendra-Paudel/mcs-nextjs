@@ -21,7 +21,7 @@ const MakeAnAppointment = () => {
         </div>
         <div className="flex justify-center">
           <ButtonAnimation
-            link="/appointment"
+            link="/contact"
             label="Make Appointment"
             color="red"
           />
