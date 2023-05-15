@@ -11,7 +11,7 @@ const services = [
   {
     id: "software-troubleshooting",
     serviceName: "Software Troubleshooting",
-    image: "/images/home/motherboard-repair.webp",
+    image: "/images/home/software-troubleshooting.jpg",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, iure laborum aliquam debitis repellat neque eos ipsam ullam facere quibusdam reprehenderit quo eveniet blanditiis eaque laudantium dignissimos aliquid est, eum qui molestiae iste dolores deserunt. Animi saepe cum hic, aut ducimus alias nulla dolore dignissimos possimus numquam quidem facere ipsam eum explicabo eaque quod libero expedita. Debitis unde dignissimos iure labore cum corporis voluptatem, voluptate quos, aut enim eaque molestias facere natus. Voluptate vero nesciunt adipisci. Enim nemo nam eos itaque soluta vel impedit explicabo quia molestias accusamus odio ex, recusandae tempora possimus natus expedita laborum doloribus blanditiis doloremque ipsa.",
     shortSummary:
@@ -20,7 +20,7 @@ const services = [
   {
     id: "os-installation",
     serviceName: "OS installation",
-    image: "/images/home/motherboard-repair.webp",
+    image: "/images/home/os-installation.jpg",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, iure laborum aliquam debitis repellat neque eos ipsam ullam facere quibusdam reprehenderit quo eveniet blanditiis eaque laudantium dignissimos aliquid est, eum qui molestiae iste dolores deserunt. Animi saepe cum hic, aut ducimus alias nulla dolore dignissimos possimus numquam quidem facere ipsam eum explicabo eaque quod libero expedita. Debitis unde dignissimos iure labore cum corporis voluptatem, voluptate quos, aut enim eaque molestias facere natus. Voluptate vero nesciunt adipisci. Enim nemo nam eos itaque soluta vel impedit explicabo quia molestias accusamus odio ex, recusandae tempora possimus natus expedita laborum doloribus blanditiis doloremque ipsa.",
     shortSummary:
@@ -29,7 +29,7 @@ const services = [
   {
     id: "data-recovery",
     serviceName: "Data Recovery",
-    image: "/images/home/motherboard-repair.webp",
+    image: "/images/home/data-recovery.jpg",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, iure laborum aliquam debitis repellat neque eos ipsam ullam facere quibusdam reprehenderit quo eveniet blanditiis eaque laudantium dignissimos aliquid est, eum qui molestiae iste dolores deserunt. Animi saepe cum hic, aut ducimus alias nulla dolore dignissimos possimus numquam quidem facere ipsam eum explicabo eaque quod libero expedita. Debitis unde dignissimos iure labore cum corporis voluptatem, voluptate quos, aut enim eaque molestias facere natus. Voluptate vero nesciunt adipisci. Enim nemo nam eos itaque soluta vel impedit explicabo quia molestias accusamus odio ex, recusandae tempora possimus natus expedita laborum doloribus blanditiis doloremque ipsa.",
     shortSummary:
@@ -38,7 +38,7 @@ const services = [
   {
     id: "upgrades",
     serviceName: "Upgrades",
-    image: "/images/home/motherboard-repair.webp",
+    image: "/images/home/upgrades.jpg",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, iure laborum aliquam debitis repellat neque eos ipsam ullam facere quibusdam reprehenderit quo eveniet blanditiis eaque laudantium dignissimos aliquid est, eum qui molestiae iste dolores deserunt. Animi saepe cum hic, aut ducimus alias nulla dolore dignissimos possimus numquam quidem facere ipsam eum explicabo eaque quod libero expedita. Debitis unde dignissimos iure labore cum corporis voluptatem, voluptate quos, aut enim eaque molestias facere natus. Voluptate vero nesciunt adipisci. Enim nemo nam eos itaque soluta vel impedit explicabo quia molestias accusamus odio ex, recusandae tempora possimus natus expedita laborum doloribus blanditiis doloremque ipsa.",
     shortSummary:
@@ -47,7 +47,7 @@ const services = [
   {
     id: "networking",
     serviceName: "Networking",
-    image: "/images/home/motherboard-repair.webp",
+    image: "/images/home/networking.jpg",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, iure laborum aliquam debitis repellat neque eos ipsam ullam facere quibusdam reprehenderit quo eveniet blanditiis eaque laudantium dignissimos aliquid est, eum qui molestiae iste dolores deserunt. Animi saepe cum hic, aut ducimus alias nulla dolore dignissimos possimus numquam quidem facere ipsam eum explicabo eaque quod libero expedita. Debitis unde dignissimos iure labore cum corporis voluptatem, voluptate quos, aut enim eaque molestias facere natus. Voluptate vero nesciunt adipisci. Enim nemo nam eos itaque soluta vel impedit explicabo quia molestias accusamus odio ex, recusandae tempora possimus natus expedita laborum doloribus blanditiis doloremque ipsa.",
     shortSummary:
