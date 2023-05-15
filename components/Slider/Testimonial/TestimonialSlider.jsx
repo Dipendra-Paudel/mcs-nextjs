@@ -10,22 +10,22 @@ import RightArrow from "./Arrow/RightArrow";
 
 const testimonials = [
   {
-    image: "/images/home/customer.webp",
-    customerName: "Dipendra Paudel",
+    image: "/icons/profile.svg",
+    customerName: "Ronit Adhikari",
     rating: 5,
     review:
       "I have been given helpful tips and precisations to keep up my laptop at best. They showed great resilience and contacting in the time being. I can only greatly appreciate their service.",
   },
   {
-    image: "/images/home/customer.webp",
-    customerName: "Dipendra Paudel",
+    image: "/icons/profile.svg",
+    customerName: "Sudip Dhungana",
     rating: 5,
     review:
       "I brought an ancient, broken computer in and within a day they were able to get it working again, the fix was extremely quick and much cheaper than any other computer repair business I've dealt with in the past.",
   },
   {
-    image: "/images/home/customer.webp",
-    customerName: "Dipendra Paudel",
+    image: "/icons/profile.svg",
+    customerName: "Rajan Adhikari",
     rating: 5,
     review:
       "I cannot speak too highly of their ability to communicate clearly and let you know the problem and fix it. They helped me out twice and both times I have found them efficient and knowledgeable. I would certainly recommend them.",
