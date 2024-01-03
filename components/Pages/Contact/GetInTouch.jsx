@@ -17,9 +17,9 @@ const contactOptions = [
   },
   {
     title: "EMAIL",
-    content: "mistercomputersolutions@gmail.com",
+    content: "info@mistercomputersolutions.com.np",
     image: "/images/contact/email.png",
-    link: "mailto:mistercomputersolutions@gmail.com",
+    link: "mailto:info@mistercomputersolutions.com.np",
   },
 ];
 
@@ -31,9 +31,8 @@ const GetInTouch = () => {
           <h1 className="text-3xl xl:text-3xl font-extrabold text-gray-800">
             Get In Touch
           </h1>
-          <div className="text-sm text-gray-500">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
-            voluptate nobis reiciendis?
+          <div className="text-gray-500">
+            Reach out to us for all your computer needs. We{"'"}re here to help!
           </div>
         </div>
         <div className="grid md:grid-cols-3 gap-[30px]">

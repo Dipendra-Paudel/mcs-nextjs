@@ -1,5 +1,6 @@
 import FeelFreeToContact from "../../components/Common/FeelFreeToContact/FeelFreeToContact";
 import HeroSection from "../../components/Common/HeroSection";
+import MainContent from "../../components/Pages/ITSupport/MainContent";
 import Navigation from "../../components/Static/Navigation/Navigation";
 import HeadTag from "../../utils/HeadTag";
 
@@ -14,8 +15,8 @@ const ITSupport = () => {
       />
 
       <Navigation active="IT Support" />
-      <HeroSection title="Home > IT Support" />
-      <div>IT Support</div>
+      {/* <HeroSection title="Home > IT Support" /> */}
+      <MainContent />
       <FeelFreeToContact />
     </div>
   );

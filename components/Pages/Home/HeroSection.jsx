@@ -33,6 +33,7 @@ const HeroSection = () => {
           <ButtonAnimation
             link="/contact"
             label="Make Appointment"
+            color="red"
             size="big"
             classes="block sm:inline-block text-center"
           />

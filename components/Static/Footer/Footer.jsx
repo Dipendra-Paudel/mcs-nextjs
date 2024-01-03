@@ -89,8 +89,10 @@ const Footer = () => {
 
                   return (
                     <div key={index}>
-                      <Link href={url} className="hover:text-primary">
-                        {label}
+                      <Link href={url} passHref>
+                        <a className="hover:text-secondary hover:underline">
+                          {label}
+                        </a>
                       </Link>
                     </div>
                   );
@@ -103,8 +105,8 @@ const Footer = () => {
               <div className="text-xl font-semibold text-gray-800">CONTACT</div>
               <div className="pt-3 space-y-3 flex flex-col">
                 <a href="tel:+9779845755635">+977 9845755635</a>
-                <a href="mailto:mistercomputersolutions@gmail.com">
-                  mistercomputersolutions@gmail.com
+                <a href="mailto:info@mistercomputersolutions.com.np">
+                  info@mistercomputersolutions.com.np
                 </a>
                 <div>Birendra Campus Chowk</div>
                 <div>Bharatpur, Chitwan</div>
