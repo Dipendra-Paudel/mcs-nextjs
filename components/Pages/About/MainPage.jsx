@@ -13,7 +13,7 @@ const MainPage = () => {
           </div>
           <div>Free computer service if we can{"'"}t fix the problem.</div>
         </div>
-        <div className="lg:flex-1">
+        <div className="hidden lg:block lg:flex-1">
           <img
             src="/images/about-us/computer-repairing.jpg"
             alt="Computer Repairing Mister Computer Solutions"

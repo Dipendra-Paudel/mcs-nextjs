@@ -6,6 +6,7 @@ import MainPage from "../../components/Pages/About/MainPage";
 import WhyChooseUs from "../../components/Pages/Home/WhyChooseUs";
 import Navigation from "../../components/Static/Navigation/Navigation";
 import HeadTag from "../../utils/HeadTag";
+import FoundersMessage from "../../components/Pages/About/FoundersMessage";
 
 const AboutUs = () => {
   return (
@@ -20,6 +21,7 @@ const AboutUs = () => {
       <Navigation active="About Us" />
       <HeroSection title="Home > About Us" />
       <MainPage />
+      <FoundersMessage />
       <WhyChooseUs />
       <GoogleMap />
       <FeelFreeToContact />

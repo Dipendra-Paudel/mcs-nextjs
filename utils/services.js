@@ -62,16 +62,20 @@ const services = [
       "Our experienced team is well-versed in the latest upgrade options and can provide expert recommendations tailored to your specific needs. We prioritize the use of high-quality components to ensure the longevity and performance of your upgraded devices. With our upgrade services, you can extend the lifespan of your technology and enjoy an improved digital",
     ],
     shortSummary:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat odio rerum et minima asperiores nostrum?",
+      "Enhancing system performance and longevity by upgrading hardware components and updating software for optimal efficiency and security.",
   },
   {
     id: "networking",
     serviceName: "Networking",
     image: "/images/home/networking.jpg",
-    description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, iure laborum aliquam debitis repellat neque eos ipsam ullam facere quibusdam reprehenderit quo eveniet blanditiis eaque laudantium dignissimos aliquid est, eum qui molestiae iste dolores deserunt. Animi saepe cum hic, aut ducimus alias nulla dolore dignissimos possimus numquam quidem facere ipsam eum explicabo eaque quod libero expedita. Debitis unde dignissimos iure labore cum corporis voluptatem, voluptate quos, aut enim eaque molestias facere natus. Voluptate vero nesciunt adipisci. Enim nemo nam eos itaque soluta vel impedit explicabo quia molestias accusamus odio ex, recusandae tempora possimus natus expedita laborum doloribus blanditiis doloremque ipsa.",
+    description: [
+      "Enhance your network's performance and security with our comprehensive network upgrade services. We upgrade routers, switches, and other essential networking equipment to optimize your infrastructure. Our upgrades improve speed, reliability, and connectivity, ensuring your network can handle increased traffic and support advanced applications with robust security measures.",
+      "Our network upgrade services streamline your network operations by integrating the latest technologies. Enjoy faster data transfer rates and reduced latency, making your network more efficient and responsive.",
+      "Stay ahead with our forward-thinking network upgrades that prepare your infrastructure for future demands. We ensure your network is scalable and adaptable, ready to accommodate growth and evolving technological advancements.",
+      "Benefit from our expert guidance and ongoing support throughout the upgrade process. We provide thorough assessments, customized solutions, and dedicated maintenance to keep your network running smoothly.",
+    ],
     shortSummary:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat odio rerum et minima asperiores nostrum?",
+      "Improving speed, reliability, and security by upgrading routers, switches, and other networking equipment.",
   },
 ];
 
